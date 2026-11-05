@@ -15,6 +15,7 @@ class PIDController {
         /// @param kP Represents tuning value for P
         /// @param kI Represents tuning value for I
         /// @param kD Represents tuning value for D
+        /// @param settleRange Represents the range at which the motor is considered "settled"
         PIDController(double kP, double kI, double kD, double settleRange) {
             this->kP = kP;
             this->kI = kI;
